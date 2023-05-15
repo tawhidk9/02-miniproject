@@ -1,5 +1,25 @@
 /* Global Styles */
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(61, 59, 81);
 }
 
+/* Font Colors */
+h1, h2, p{
+    color: blueviolet;
+}
+
+pre{
+    color: antiquewhite;
+}
+
+/* Card Title Positioning */
+.card-title{
+    position: relative;
+    width: 344.78px;
+    height: 200.72px;
+    left: 540px;
+    top: 277px;
+    background: antiquewhite;
+}
