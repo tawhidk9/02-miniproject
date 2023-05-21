@@ -1,10 +1,9 @@
-/* Global Styles */
 :root{
     --darkbackground: #5d607a;
     --txtcolor: #e867ed;
 }
 
-
+/* Global styles */
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
