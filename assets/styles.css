@@ -1,58 +1,47 @@
 /* Global Styles */
+:root{
+    --darkbackground: #5d607a;
+    --txtcolor: #e867ed;
+}
+
+
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(61, 59, 81);
-    border: solid 1px blue !important;
+    background-color: var(--darkbackground);
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid blue;
 }
 
-/* Font Colors and Sizes */
-header{
+main{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding: 10px;
 }
 
-header h1{
-    font-size: 55px;
-    padding: .7em;
+main p{
+    font-size: 1.2em;
+
 }
 
-header p{
-    color: antiquewhite;
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
-h1, h2, p{
-    color: blueviolet;
+.card {
+    display: block;
+    border: 2px dashed #fff;
+    flex: 0 0 25%;
+    padding: 10px;
+    margin: 10px;
 }
 
-pre{
-    color: antiquewhite;
-}
-
-p pre{
-    background: linear-gradient(180deg, rgba(176, 23, 214, 0.81) 0%, rgba(176, 23, 214, 0.81) 0.01%, rgba(176, 23, 214, 0.807881) 0.02%, rgba(176, 23, 214, 0.798068) 0.03%, rgba(176, 23, 214, 0.1782) 0.04%, rgba(176, 23, 214, 0.669559) 54.17%, rgba(176, 23, 214, 0) 100%);
-}
-
-/* Card Title Positioning */
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+.cardTitle{
     position: relative;
-    width: 268.78px;
-    height: 41.72px;
-    left: 30px;
-    top: 20px;
-    border: 1px solid #0A22F6;
-    }
-
-
-
-
-/* Text Box Positioning */
-article{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    left: 0px;
-   }
+    margin-top: -20px;
+    text-align: start;
+}
