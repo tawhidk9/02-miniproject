@@ -94,6 +94,7 @@ code {
     display: flex;
 }
 
+/* Footer styles */
 footer {
     text-align: center;
 }
@@ -105,3 +106,24 @@ footer h3 {
     font-family: sans-serif;
     margin: 20px;
 }
+
+
+/* media query to split into two columns at 992px or smaller*/
+
+@media screen and (max-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+  }
+  
+  /* media query so they stacked on top of each other at 768px or smaller */
+  
+  @media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+  }
