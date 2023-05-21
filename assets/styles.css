@@ -94,3 +94,14 @@ code {
     display: flex;
 }
 
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    color: var(--lightcolor);
+    font-weight: bold;
+    font-size: 1.25em;
+    font-family: sans-serif;
+    margin: 20px;
+}
