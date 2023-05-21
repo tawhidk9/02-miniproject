@@ -12,7 +12,6 @@
     color: antiquewhite;
     font-size: 16px;
     font-weight: normal;
-    border: 1px solid blue;
 }
 
 /* Header Styles */
@@ -23,7 +22,10 @@ header{
 header h1{
     font-size: 2.3em;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
+
 
 /* Main styles and macro card styles */
 main{
@@ -54,10 +56,15 @@ main p{
 
 .cardTitle{
     position: relative;
-    margin-top: -57px;
+    margin-top: -25px;
     text-align: start;
     border: 1px solid;
     border-radius: 10px;
+}
+
+.code{
+    display: flex;
+    justify-content: center;
 }
 
 .cardTitle h2{
@@ -106,6 +113,9 @@ footer h3 {
     font-family: sans-serif;
     margin: 20px;
 }
+
+
+
 
 
 /* media query to split into two columns at 992px or smaller*/
