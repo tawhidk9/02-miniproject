@@ -30,12 +30,13 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 10px;
+    padding: 45px;
 }
 
 main p{
     font-size: 1.2em;
-
+    color: var(--txtcolor);
+    text-align: left;
 }
 
 .container{
@@ -53,7 +54,7 @@ main p{
 
 .cardTitle{
     position: relative;
-    margin-top: -20px;
+    margin-top: -57px;
     text-align: start;
     border: 1px solid;
     border-radius: 10px;
@@ -62,6 +63,8 @@ main p{
 .cardTitle h2{
     font-size: 1.75em;
     font-weight: bold;
+    color: var(--txtcolor);
+    padding-left: 10px;
 }
 
 /* Hover transitions */
@@ -73,7 +76,7 @@ main p{
 	box-shadow: 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
 }
 
-/* .code style */
+/* .code box style */
 
 code {
     background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
@@ -90,3 +93,4 @@ code {
     user-select: all;
     display: flex;
 }
+
